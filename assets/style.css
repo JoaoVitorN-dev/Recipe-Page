@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   padding : 0px 100px;
+}
+
+.imageOmelette{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 50px 0px;
+}
+
+.imageOmelette img{
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+.description {
+    margin: 35px 0px;
+    font-size: 35px;
+    color: #333333;
+}
+
+.preparationTime{
+    background-color: hsl(330, 100%, 98%);
+    height: 220px;
+    padding: 30px 40px;
+    border-radius: 15px;
+}
+
+.preparationTime h3{
+    font-size: 35px;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 15px;
+}
+
+.list{
+    margin-left: 27px;
+    font-size: 20px;
+}
+
+.preparationTime ul li {
+    margin-bottom: 12px;
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+    font-size: 50px;
+    margin: 30px 0px;
+}
+
+.itemList{
+    position: relative;
+    left: 20px;
+}
+
+
