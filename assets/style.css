@@ -60,6 +60,7 @@ h2{
 .itemText{
     position: relative;
     left: 20px;
+    color: hsl(30, 10%, 34%);
 }
 
 .border{
@@ -77,3 +78,36 @@ h2{
     font-weight: 900;
 }
 
+#tableDescription{
+    font-size: 25px;
+    color: hsl(30, 10%, 34%);
+}
+
+strong{
+    color: hsl(24, 5%, 18%);
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0px;
+}
+
+.nutrition-table tr:not(:last-child) td {
+    border-bottom: 1px solid hsl(30, 18%, 87%); /* Ajuste a cor conforme necessário */
+}
+
+.nutrition-table td {
+    padding: 12px 50px;
+    font-size: 25px;
+    color: hsl(30, 10%, 34%); 
+}
+
+.nutrition-table td:last-child {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition-table tr:last-child td {
+    border-bottom: 0px;
+}
